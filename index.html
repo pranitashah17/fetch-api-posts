@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Posts Form</title>
+</head>
+<body>
+    <div>
+        <h2> Fetch Api - Sending Forms</h2>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+            <label>
+                <div>
+                    Title: <input type="text" name="title" id="title">
+                </div>
+            </label>
+            <label>
+                <div>
+                    Body: <textarea type="textarea" name="body" id="body"> </textarea>
+                </div>
+                <div> <input type="submit"/>
+                    <input type="reset">
+                </div>
+            </label>
+        </form>
+    </div>
+    <script>src="./main.js"</script>
+</body>
+</html>
